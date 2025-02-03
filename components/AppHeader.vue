@@ -19,7 +19,10 @@ function goHome() {
         </div>
 
         <!-- Dark Mode Toggle -->
-        <DarkToggle />
+        <div class="flex items-center space-x-3">
+          <GithubCom />
+          <DarkToggle />
+        </div>
       </div>
     </div>
 
