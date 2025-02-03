@@ -3,7 +3,7 @@ name: Deploy Nuxt to GitHub Pages
 on:
   workflow_dispatch: # 手动触发
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build:
