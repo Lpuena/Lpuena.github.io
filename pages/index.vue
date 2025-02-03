@@ -16,7 +16,7 @@ const webSites = [
   {
     name: 'VitePress',
     description: 'A personal blog framework based on VitePress',
-    id: 'vitePress',
+    id: 'vitepress',
     icon: 'i-simple-icons-vitepress',
   },
 ]
