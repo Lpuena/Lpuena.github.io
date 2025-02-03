@@ -7,8 +7,7 @@ function goHome() {
 
 <template>
   <header
-    class="border-b border-gray-200/50 headerImgLight backdrop-blur-[4px] transition-colors duration-300 bg-custom-size"
-    dark="border-gray-700/50 headerImgDark"
+    class="backdrop-blur"
   >
     <div class="mx-auto px-4 container lg:px-8 sm:px-6">
       <div class="h-15 flex items-center justify-between">
@@ -23,6 +22,9 @@ function goHome() {
         <DarkToggle />
       </div>
     </div>
+
+    <!-- 分割线 -->
+    <div class="h-px bg-gray-300 dark:bg-gray-700" transition />
   </header>
 </template>
 

@@ -8,7 +8,7 @@ useHead({
 </script>
 
 <template>
-  <div class="min-h-screen flex flex-col bg-gradient-to-b">
+  <div class="min-h-screen flex flex-col transition bg-gradient-to-b bgc">
     <!-- 导航栏 -->
     <AppHeader class="sticky top-0 z-50" />
 

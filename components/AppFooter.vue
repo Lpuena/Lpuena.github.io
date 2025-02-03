@@ -1,16 +1,21 @@
-<script lang="ts" setup>
-
+<script setup>
+// Your component logic here
 </script>
 
 <template>
-  <footer
-    class="border-t"
-    dark="border-gray-700/50"
-  >
-    <div class="mx-auto h-15 px-4 py-5 text-center text-gray-500 container lg:px-8 sm:px-6">
-      © 2024 工具网站. All rights reserved.
+  <footer>
+    <!-- 分割线 -->
+    <div class="h-px bg-gray-300 dark:bg-gray-700" transition />
+    <div class="h-15 py-4">
+      <div class="mx-auto px-4 container">
+        <p class="text-center tgc">
+          Copyright © 2025 Lpuena - MIT License
+        </p>
+      </div>
     </div>
   </footer>
 </template>
 
-<style scoped></style>
+<style scoped>
+/* Your styles here */
+</style>

@@ -17,7 +17,7 @@ body,
 }
 
 html.dark {
-  background: #09090b;
+  background: #222;
   color: white;
 }
 </style>

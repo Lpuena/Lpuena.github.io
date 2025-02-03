@@ -37,6 +37,17 @@ export default defineConfig({
       headerImgLight: 'bg-[radial-gradient(transparent_1px,_rgba(255,_255,_255,_0.8)_1px)]',
       headerImgDark: 'bg-[radial-gradient(transparent_1px,_rgba(34,_34,_34,_0.8)_1px)]',
     },
+    {
+      // 动画过度
+      transition: 'transform transition-all duration-300',
+    },
+    {
+      // 背景颜色
+      bgc: 'bg-white dark:bg-[#222]',
+    },
+    {
+      tgc: 'text-gray-600 dark:text-gray-500',
+    },
   ],
   rules: [
     ['bg-custom-size', { 'background-size': '4px 4px' }],

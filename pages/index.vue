@@ -1,21 +1,44 @@
-<script setup>
-// Your page logic here
+<script lang="ts" setup>
+// 工具数据
+const webSites = [
+  {
+    name: 'Toolbox',
+    description: 'A collection of tools for web development',
+    icon: 'i-carbon-tool-box',
+    id: 'tool',
+  },
+  {
+    name: 'Read',
+    description: 'A classic book reader',
+    icon: 'i-carbon-book',
+    id: 'nuxt-read',
+  },
+  {
+    name: 'VitePress',
+    description: 'A personal blog framework based on VitePress',
+    id: 'vitePress',
+    icon: 'i-simple-icons-vitepress',
+  },
+]
 </script>
 
 <template>
   <div>
-    <h1 class="mb-8 text-4xl text-gray-800 font-bold">
-      Welcome to Your Nuxt App
-    </h1>
-    <div class="max-w-3xl prose">
-      <p class="text-lg text-gray-600">
-        Start building your application here. This is a clean and modern template
-        to kickstart your next Nuxt project.
-      </p>
+    <!-- 欢迎区域 -->
+    <div class="mx-auto mb-20 max-w-3xl text-center">
+      <h2 class="mb-8 text-4xl font-bold">
+        All in one Navigation
+      </h2>
     </div>
+
+    <!-- 工具展示 -->
+    <CardSection
+      title="WebSite Navigation"
+      :card-list="webSites"
+    />
   </div>
 </template>
 
 <style scoped>
-/* Your styles here */
+/* 自定义按钮样式 */
 </style>
