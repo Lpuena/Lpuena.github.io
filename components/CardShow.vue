@@ -8,7 +8,11 @@ defineProps<{
   }
 }>()
 
-const router = useRouter()
+// 新窗口跳转路由
+function openLink(id: string) {
+  const url = `${window.location.origin}/${id}/`
+  window.open(url, '_blank')
+}
 </script>
 
 <template>
@@ -16,7 +20,7 @@ const router = useRouter()
     class="group cursor-pointer rounded-xl bg-white p-8 shadow-lg hover:shadow-2xl hover:-translate-y-2"
     transition
     dark="bg-[#222] shadow-gray-700/40 hover:shadow-gray-700"
-    @click="router.push(card.id)"
+    @click="openLink(card.id)"
   >
     <!-- Icon with a subtle hover effect -->
     <div
