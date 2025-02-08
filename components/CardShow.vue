@@ -10,7 +10,7 @@ defineProps<{
 
 // 新窗口跳转路由
 function openLink(id: string) {
-  const url = `${id}.pages.dev`
+  const url = `https://${id}.pages.dev` // 确保是绝对 URL
   window.open(url, '_blank')
 }
 </script>

@@ -5,7 +5,7 @@ const webSites = [
     name: 'Toolbox',
     description: 'A collection of tools for web development',
     icon: 'i-carbon-tool-box',
-    id: 'tool-18v',
+    id: 'lpuena-tool',
   },
   {
     name: 'Read',
@@ -16,7 +16,7 @@ const webSites = [
   {
     name: 'VitePress',
     description: 'A personal blog framework based on VitePress',
-    id: 'vitepress',
+    id: 'lpuena-vitepress',
     icon: 'i-simple-icons-vitepress',
   },
 ]
