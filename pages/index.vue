@@ -5,7 +5,7 @@ const webSites = [
     name: 'Toolbox',
     description: 'A collection of tools for web development',
     icon: 'i-carbon-tool-box',
-    id: 'tool',
+    id: 'tool-18v',
   },
   {
     name: 'Read',
