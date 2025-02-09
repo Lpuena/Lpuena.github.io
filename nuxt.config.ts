@@ -22,7 +22,7 @@ export default defineNuxtConfig({
       ],
       link: [
         // { rel: 'icon', href: '/favicon.ico', sizes: 'any' },
-        { rel: 'icon', href: '/carbonApplicationWeb.png' },
+        { rel: 'icon', href: '/CarbonApplicationWeb.png' },
       ],
     },
   },
