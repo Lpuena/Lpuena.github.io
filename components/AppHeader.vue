@@ -13,7 +13,8 @@ function goHome() {
       <div class="h-15 flex items-center justify-between">
         <!-- Logo and Title -->
         <div class="flex cursor-pointer items-center space-x-3" @click="goHome">
-          <h1 class="text-2xl font-bold italic">
+          <div class="i-carbon-application-web text-2xl" />
+          <h1 class="text-2xl font-bold">
             Navigation
           </h1>
         </div>

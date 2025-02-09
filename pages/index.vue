@@ -26,9 +26,9 @@ const webSites = [
   <div>
     <!-- 欢迎区域 -->
     <div class="mx-auto mb-20 max-w-3xl text-center">
-      <h2 class="mb-8 text-4xl font-bold">
+      <h1 class="mb-8 text-4xl font-bold italic">
         All in one Navigation
-      </h2>
+      </h1>
     </div>
 
     <!-- 工具展示 -->
